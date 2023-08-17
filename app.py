@@ -1,4 +1,4 @@
-from flask import Flask,jsonify,request
+from flask import Flask,request
 
 
 app=Flask(__name__)
@@ -6,8 +6,6 @@ app=Flask(__name__)
 @app.route('/')
 def intro():
     return 'hello'
-
-
 
 
 if __name__=="__main__":
